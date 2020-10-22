@@ -30,7 +30,11 @@ h2. Installation:
 
 h2. Compatibility:
 
-* Redmine up to 4.1.x
+* Redmine up to 4.1.1
+  Redmine version                4.1.1.stable
+  Ruby version                   2.6.6-p146 (2020-03-31) [x86_64-linux]
+  Rails version                  5.2.4.2
+
 * *tested only in Google Chrome, Mozilla Firefox and the last versions of Internet Explorer (11+)*
 * plug-ins taking advantage of clipboard_image_paste:
 ** KbArticle [https://github.com/alexbevi/redmine_knowledgebase]
