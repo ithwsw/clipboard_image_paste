@@ -18,7 +18,7 @@ Redmine::Plugin.register :clipboard_image_paste do
   url         'http://www.redmine.org/plugins/clipboard_image_paste'
   version     '1.13'
   #requires_redmine :version_or_higher => '1.4.0'
-  requires_redmine :version => "4.1.1"
+  #requires_redmine :version => "4.1.1"
 
   configfile = File.join(File.dirname(__FILE__), 'config', 'settings.yml')
   $clipboard_image_paste_config = YAML::load_file(configfile)
